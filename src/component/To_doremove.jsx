@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { removetodo } from '../features/tod/Todoslice'
+import { removetodo } from '../features/tod/To_doSlice'
 
 
 export default function Todoremove() {

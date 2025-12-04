@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Todoadd from './component/Todoadd'
-import Todoremove from './component/Todoremove'
+import Todoadd from './component/To_doadd'
+import Todoremove from './component/To_doremove'
 
 
 function App() {
