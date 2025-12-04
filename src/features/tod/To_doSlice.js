@@ -5,18 +5,18 @@ const initialState = {
 }
 
 export const to_doSlice = createSlice({
-    name: "todo",
+    name: "to_do",
     initialState,
     reducers: {
         addtodo: (state, action) => {
-            const todo = {
+            const to_do = {
                 id: nanoid(),
                 text: action.payload
             }
-            state.todos.push(todo)
+            state.todos.push(to_do)
         },
         removetodo: (state, action) => {
-            state.todos = state.todos.filter((todo) => todo.id !== action.payload)
+            state.todos = state.todos.filter((to_do) => to_do.id !== action.payload)
 
         },
 

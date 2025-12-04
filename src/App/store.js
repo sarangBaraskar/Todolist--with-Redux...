@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { to_doSlice } from "../features/tod/To_doSlice";
+import  to_doSlice  from "../features/tod/To_doSlice";
 
-export const store = configureStore({
+export const store= configureStore({
     reducer: to_doSlice
 })
